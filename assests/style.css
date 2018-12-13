@@ -27,6 +27,6 @@ body, html {
 .w3-bar .w3-button {
     padding: 16px;
 }
-/* .eileen img {
-    height: 435px;
-} */
+.w3-card {
+    margin: 4px;
+}

@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Slab" rel="stylesheet">
 <link rel="stylesheet" href="assests/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <body>
   <!-- Navbar (sit on top) -->
@@ -41,61 +42,50 @@
 
   <!-- Header with full-height image -->
   <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-    <div class="w3-display w3-text-white photo-text">
+    <div class="w3-display w3-text-white photo-text" data-aos="zoom-in">
       <span class="w3-jumbo">URBAN LA STUDIO</span><br>
       <span class="w3-large">Live to inspire.</span>
-    </div>
-    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
   </header>
 
   <!-- About Section -->
   <div class="w3-container" style="padding:128px 16px" id="about">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
-    <div class="w3-row-padding w3-center" style="margin-top:64px">
-      <div class="w3-quarter">
-        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-        <p class="w3-large">Responsive</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Passion</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Design</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Support</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore.</p>
-      </div>
+    <h2 class="w3-center">ABOUT THE US</h2>
+    <p class="w3-center w3-content w3-large w3-margin-bottom" data-aos="zoom-in">Urban LA is newly opened dance studio in the Koreatown, Los Angeles area.
+      The variety of styles offered in their classes include but are not limited to Hip Hop, Kpop, Urban Choreography,
+      Popping, Martial Arts/dance, & Cardio Hip Hop. With a cap of 15 students in each class, their goal is to provide
+      an intimate class environment where they can receive more individual attention and guidance from the instructors.</p>
+    <div class="owners ">
+    <div class="w3-col s6 w3-padding-16 w3-container w3-margin-top">
+    <h3 class="w3-center">Eileen Kim</h3>
+    <p class="w3-center w3-content w3-large" data-aos="zoom-in">Eileen Kim is a dancer, instructor, and choreographer based in Los
+      Angeles, CA. She found her passion for dance when she first began competing in 2012 with 909HHDT, a team based in
+      UC Riverside, and since then has continued to share her craft by teaching locally and internationally. Her
+      experience includes performing with and choreographing for GRV dance team at world famous competitions, teaching
+      at studios such as Snowglobe Perspective and Kinjaz Dojo, and choreographing for various artists. She believes
+      that it is possible to achieve anything when you put your heart into it, and continues to strive to grow and to
+      inspire people through her craft. </p>
+    </div>
+    <div class="w3-col s6 w3-padding-16 w3-container w3-margin-top">
+    <h3 class="w3-center">Diny Kim</h3>
+    <p class="w3-center w3-content w3-large" data-aos="zoom-in">Diny Kim is a professional dancer, teacher, and choreographer based in San
+      Diego, California. Originally from Los Angeles, she moved to San Diego in 2010, and is currently dancing with the
+      Super Galactic Beat Manipulators, founded by Kevin Brewer of the Jabbawockeez. She enjoys traveling around the
+      country to teach, and has been to New York to teach at Sandbox NYC. Diny has danced for several artists in the
+      Korean entertainment industry, most notably Jun Curry Ahn. She is excited to share her love and knowledge of
+      dance to Urban LA!</p>
+    </div>
     </div>
   </div>
 
   <!-- Team Section -->
   <div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
     <h3 class="w3-center">MEET OUR INSTRUCTORS</h3>
-    <p class="w3-center w3-large">The ones who runs this company</p>
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
       <div class="w3-container cardCrop">
-        <div class="w3-col l3 m6 w3-margin-bottom eileen">
+        <div class="w3-col l3 m6 w3-margin-bottom eileen photos">
           <div class="w3-card card">
-            <img src="assests/images/eileen.png" class="instructors" alt="Eileen" style="width:100%">
+            <img src="assests/images/eileen.png" data-aos="zoom-in" class="instructors" alt="Eileen" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Eileen Kim</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -107,9 +97,9 @@
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom diny">
+        <div class="w3-col l3 m6 w3-margin-bottom diny photos">
           <div class="w3-card card">
-            <img src="assests/images/diny-headshot1.png" class="instructors" alt="Diny" style="width:100%">
+            <img src="assests/images/diny-headshot1.png" data-aos="zoom-in" class="instructors" alt="Diny" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Diny Kim</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -121,23 +111,23 @@
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom taryn">
+        <div class="w3-col l3 m6 w3-margin-bottom taryn photos">
           <div class="w3-card card">
-            <img src="assests/images/Taryn.png" class="instructors" alt="Ariel" style="width:100%">
+            <img src="assests/images/Taryn.png" data-aos="zoom-in" class="instructors" alt="Ariel" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Taryn Cheng</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
               <p>
-               <a href="https://www.facebook.com/profile.php?id=100002370526789" target="_blank"><i class="fa fa-facebook-official"></i></a>
-               <a href="https://www.youtube.com/user/tarnosterrah" target="_blank"><i class="fa fa-youtube-play"></i></a>
-               <a href="https://www.instagram.com/taryncheng/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100002370526789" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://www.youtube.com/user/tarnosterrah" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://www.instagram.com/taryncheng/" target="_blank"><i class="fa fa-instagram"></i></a>
               </p>
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom larry">
+        <div class="w3-col l3 m6 w3-margin-bottom larry photos">
           <div class="w3-card card">
-            <img src="assests/images/larry.png" class="instructors" alt="Larry" style="width:100%">
+            <img src="assests/images/larry.png" data-aos="zoom-in" class="instructors" alt="Larry" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Larry Li</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -148,23 +138,23 @@
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom cassie">
+        <div class="w3-col l3 m6 w3-margin-bottom cassie photos">
           <div class="w3-card card">
-            <img src="assests/images/Cassie.png" class="instructors" alt="Cassie" style="width:100%">
+            <img src="assests/images/Cassie.png" data-aos="zoom-in" class="instructors" alt="Cassie" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Cassandra Garcia</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
               <p>
                 <a href="https://www.facebook.com/cassie.garcia.31" target="_blank"><i class="fa fa-facebook-official"></i></a>
-               <a href="https://www.youtube.com/watch?v=c4TDkj2oNTs&feature=youtu.be" target="_blank"><i class="fa fa-youtube-play"></i></a> 
-               <a href="https://www.instagram.com/ox_eissac/"><i class="fa fa-instagram" target="_blank"></i></a>
+                <a href="https://www.youtube.com/watch?v=c4TDkj2oNTs&feature=youtu.be" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://www.instagram.com/ox_eissac/"><i class="fa fa-instagram" target="_blank"></i></a>
               </p>
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom bean">
+        <div class="w3-col l3 m6 w3-margin-bottom bean photos">
           <div class="w3-card card">
-            <img src="assests/images/Bean.png" class="instructors" alt="Bean" style="width:100%">
+            <img src="assests/images/Bean.png" data-aos="zoom-in" class="instructors" alt="Bean" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Hector "Bean" Flores</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -176,9 +166,9 @@
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom ednino">
+        <div class="w3-col l3 m6 w3-margin-bottom ednino photos">
           <div class="w3-card card">
-            <img src="assests/images/Ednino.png" class="instructors" alt="Ednino" style="width:100%">
+            <img src="assests/images/Ednino.png" data-aos="zoom-in" class="instructors" alt="Ednino" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Edniño Malamanig</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -190,9 +180,9 @@
             </div>
           </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom danyel">
+        <div class="w3-col l3 m6 w3-margin-bottom danyel photos">
           <div class="w3-card card">
-            <img src="assests/images/Danyel.png" class="instructors" alt="Danyel" style="width:100%">
+            <img src="assests/images/Danyel.png" data-aos="zoom-in" class="instructors" alt="Danyel" style="width:100%">
             <div class="w3-container instructorText">
               <h3>Danyel Moulton</h3>
               <p class="w3-opacity">Hip-hop Instructor</p>
@@ -208,60 +198,13 @@
     </div>
   </div>
 
-  <!-- Work Section
-  <div class="w3-container" style="padding:128px 16px" id="work">
-    <h3 class="w3-center">OUR WORK</h3>
-    <p class="w3-center w3-large">What we've done for people</p>
-
-    <div class="w3-row-padding" style="margin-top:64px">
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
-      </div>
-    </div>
-
-    <div class="w3-row-padding w3-section">
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A typewriter">
-      </div>
-      <div class="w3-col l3 m6">
-        <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A tableturner">
-      </div>
-    </div>
-  </div> -->
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption" class="w3-opacity w3-large"></p>
-    </div>
-  </div>
-
 
   <!-- Pricing Section -->
   <div class="w3-container w3-center w3-dark-grey pricing" style="padding:128px 16px" id="pricing">
     <h3>PRICING</h3>
     <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-    <div class="w3-row-padding" style="margin-top:64px">
-      <div class="w3-third w3-section">
+    <div class="w3-row-padding" style="margin-top:64px" >
+      <div class="w3-third w3-section" data-aos="zoom-in">
         <ul class="w3-ul w3-white w3-hover-shadow">
           <li class="w3-black w3-xlarge w3-padding-32">Single Class Drop-in</li>
           <li class="w3-padding-24 singleClass">Take ANY class; valid up to one full year from original date of
@@ -269,71 +212,25 @@
           <h2 class="w3-wide">$ 15</h2>
           <span class="w3-opacity">per class</span>
           </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-          </li>
         </ul>
       </div>
-      <div class="w3-third">
+      <div class="w3-third w3-section" data-aos="zoom-in">
         <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-red w3-xlarge w3-padding-48">Unlimited Class Card**</li>
+          <li class="w3-red w3-xlarge w3-padding-48">1 Month Package</li>
           <li class="w3-padding-16">Really?! UNLIMITED? Take as many classes as you want... try to beat the record of
             eighty-two classes in one month and your classes can cost up to four dollars.</li>
-          <h2 class="w3-wide">$ 350</h2>
+          <h2 class="w3-wide">$ 180</h2>
           <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
           </li>
         </ul>
       </div>
-      <div class="w3-third w3-section">
+      <div class="w3-third w3-section" data-aos="zoom-in">
         <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">10 Class Card**</li>
+          <li class="w3-black w3-xlarge w3-padding-32">10 Class Card</li>
           <li class="w3-padding-16">Thirteen dollars per class when purchased. Now, what are you going to do with the
             twenty dollar savings you just made?! Maybe purchase another class... the choice is yours.</li>
           <h2 class="w3-wide">$ 130</h2>
           <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-third w3-section">
-        <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">20 Class Card**</li>
-          <li class="w3-padding-16">Twelve dollars per class. STOP! Wait a minute, you just saved sixty bucks! Go on -
-            you deserve that new Urban LA tee you've been eyeing in the lobby</li>
-          <h2 class="w3-wide">$ 240</h2>
-          <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-third w3-section">
-        <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">30 Class Card**</li>
-          <li class="w3-padding-16">Eleven dollars per class... guess how much you just saved? Yup, one hundred and
-            twenty US dollars! Enough to buy one single class for eight of your friends.</li>
-          <h2 class="w3-wide">$ 330</h2>
-          <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-third w3-section">
-        <ul class="w3-ul w3-white classCard">
-          <li class="w3-padding-16 refund">**Class cards must be ACTIVATED within thirty days of purchase; any time
-            after that
-            you will lose your classes - no exceptions.</li>
-          <li class="w3-padding-16">**ALL Class Cards are valid for thirty days from your <b>FIRST</b> class.</li>
-          <li class="w3-padding-16">**Single Class and Class Cards are NOT valid for Masterclasses.</li>
-          <li class="w3-padding-32">**Masterclasses are non-refundable.</li>
           </li>
         </ul>
       </div>
@@ -341,28 +238,33 @@
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-container" style="padding:128px 16px" id="contact">
+  <div class="w3-container w3-row" style="padding:128px 16px" id="contact">
     <h3 class="w3-center">CONTACT</h3>
-    <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-    <div style="margin-top:48px">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <div class="w3-center w3-content w3-row" data-aos="zoom-in">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.3166607688051!2d-118.30843391670741!3d34.069108969317476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8990f459141%3A0x427ebdb58b217a0f!2s266+S+Oxford+Ave%2C+Los+Angeles%2C+CA+90004!5e0!3m2!1sen!2sus!4v1549046031507"
+        width="100%" height="360px" frameborder="1" style="border:0" allowfullscreen></iframe>
+    </div>
+      <div class="w3-center w3-content w3-row" data-aos="zoom-in">
+        <p class="w3-large contactinfo">
+          Address: 266 S. Oxford Ave Los Angeles, CA 90004
+          <br>Email: urbanlaktown@gmail.com
+          <br><a href="https://www.instagram.com/urbanlastudio/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+          @urbanlastudio
+          <br><a href="https://www.facebook.com/urbanlastudio/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+          www.facebook.com/urbanlastudio
+          <br>Phone: (213) 503-9911</p>
+      </div>
+      <br>
+      
+      </div>
+      <div class="w3-center w3-padding-64" data-aos="zoom-in">
+          <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     </div>
   </div>
-
-  <!-- Footer -->
-  <footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-
 </html>

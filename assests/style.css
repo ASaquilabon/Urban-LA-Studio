@@ -20,7 +20,7 @@ body, html {
 }
 .instructors {
     width: 100%;
-    height: 480px;
+    height: 560px;
 }
 .refund {
     margin: 15px;
@@ -34,4 +34,8 @@ body, html {
 }
 .instructorText {
     text-align: center;
+}
+
+.owners {
+    margin-top: 200px;
 }
